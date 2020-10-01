@@ -1,0 +1,39 @@
+.course
+    .header
+        z-index 10000
+        background-color white
+        position: fixed
+        left 0
+        right 0
+        top 0
+        height 44px
+        display: flex
+        align-items: center
+        justify-content: flex-start
+        padding-left 0.44rem
+        padding-right 0.44rem
+        border-bottom 1px solid grey
+        .headerItem
+            // position relative
+            // position absolute
+            font-size: 0.51rem
+            margin-right 0.7rem
+            // height 100%
+            a
+                text-decoration: none
+                color grey
+                display: inline-block
+                position relative
+                line-height 44px
+            a.selected
+                color black
+                font-size: 0.56rem
+            a.selected:before
+                content: ''
+                height 3px
+                width 50%
+                position absolute
+                left 50%
+                transform: translateX(-50%)
+                bottom 0
+                background-color: #fa8919

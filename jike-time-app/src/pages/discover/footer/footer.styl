@@ -1,0 +1,39 @@
+.footer
+    z-index 10000
+    position: fixed
+    bottom 0
+    left 0
+    right 0
+    height 50px
+    display: flex
+    font-size: 0.27rem
+    border-top 0.5px solid #aeaeae
+    background-color #fff
+    .footerItem
+        flex: 1
+        display flex
+        align-items center
+        justify-content: center
+        a
+            position relative
+            text-decoration: none
+            text-align center
+            .footer-red-dot
+                position absolute
+                right -0.08rem
+                top -0.08rem
+                border-radius 100%
+                background-color red
+                width .2rem
+                height .2rem
+            .icon
+                font-size .6rem
+                color #888888
+            .footerItemContent
+                color grey
+        a.highlight
+            text-decoration: none
+            background-color white
+            .footerItemContent,.icon
+                color: #fa8919
+        

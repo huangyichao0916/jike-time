@@ -1,0 +1,34 @@
+.mine-item-wrapper
+    color black
+    display flex
+    height 1.573333rem
+    line-height 1.573333rem
+    .icon
+        font-size .546667rem
+    .left
+        margin-left .146667rem
+    .title-wrapper
+        font-size .44rem
+        flex 1
+        margin-left .373333rem
+        display flex
+        justify-content center
+        align-items center
+        .red-dot
+            width .24rem
+            height .24rem
+            background-color red
+            border-radius 100%
+            margin 15px
+        .detail
+            flex 1
+            text-align right
+            color #939393
+    .right
+        color #c2c2c2
+.mine-item-wrapper + .mine-item-wrapper
+    border-top 0.5px solid #e8e8e8 
+    width 100%
+.mine-item-wrapper.hidden
+    .detail
+        opacity 0
